@@ -1,0 +1,112 @@
+.highlight{ background: var(--highlight-background); color: var(--highlight-color); }
+.highlight .-ChordModifier { color: var(--highlight--chordmodifier-color); } /* ChordModifier */
+.highlight .bp { font-weight: var(--highlight-bp-font-weight); font-style: var(--highlight-bp-font-style); color: var(--highlight-bp-color); } /* Name.Builtin.Pseudo */
+.highlight .c { background-color: var(--highlight-c-background-color); font-style: var(--highlight-c-font-style); color: var(--highlight-c-color); } /* Comment */
+.highlight .c-PreProc { font-style: var(--highlight-c-preproc-font-style); color: var(--highlight-c-preproc-color); } /* Comment.PreProc */
+.highlight .c1 { background-color: var(--highlight-c1-background-color); font-style: var(--highlight-c1-font-style); color: var(--highlight-c1-color); } /* Comment.Single */
+.highlight .ch { background-color: var(--highlight-ch-background-color); font-style: var(--highlight-ch-font-style); color: var(--highlight-ch-color); } /* Comment.Hashbang */
+.highlight .cm { background-color: var(--highlight-cm-background-color); font-style: var(--highlight-cm-font-style); color: var(--highlight-cm-color); } /* Comment.Multiline */
+.highlight .cp { font-weight: var(--highlight-cp-font-weight); background-color: var(--highlight-cp-background-color); font-style: var(--highlight-cp-font-style); color: var(--highlight-cp-color); } /* Comment.Preproc */
+.highlight .cpf { background-color: var(--highlight-cpf-background-color); font-style: var(--highlight-cpf-font-style); color: var(--highlight-cpf-color); } /* Comment.PreprocFile */
+.highlight .cs { font-weight: var(--highlight-cs-font-weight); background-color: var(--highlight-cs-background-color); font-style: var(--highlight-cs-font-style); color: var(--highlight-cs-color); } /* Comment.Special */
+.highlight .dl { background-color: var(--highlight-dl-background-color); font-style: var(--highlight-dl-font-style); color: var(--highlight-dl-color); } /* Literal.String.Delimiter */
+.highlight .err { background-color: var(--highlight-err-background-color); font-weight: var(--highlight-err-font-weight); border: var(--highlight-err-border); color: var(--highlight-err-color); } /* Error */
+.highlight .esc { color: var(--highlight-esc-color); } /* Escape */
+.highlight .fm { font-weight: var(--highlight-fm-font-weight); font-style: var(--highlight-fm-font-style); color: var(--highlight-fm-color); } /* Name.Function.Magic */
+.highlight .g { font-weight: var(--highlight-g-font-weight); color: var(--highlight-g-color); } /* Generic */
+.highlight .g-Underline { text-decoration: var(--highlight-g-underline-text-decoration); color: var(--highlight-g-underline-color); } /* Generic.Underline */
+.highlight .gd { background-color: var(--highlight-gd-background-color); font-weight: var(--highlight-gd-font-weight); border: var(--highlight-gd-border); color: var(--highlight-gd-color); } /* Generic.Deleted */
+.highlight .ge { font-weight: var(--highlight-ge-font-weight); color: var(--highlight-ge-color); text-decoration: var(--highlight-ge-text-decoration); font-style: var(--highlight-ge-font-style); } /* Generic.Emph */
+.highlight .gh { font-weight: var(--highlight-gh-font-weight); color: var(--highlight-gh-color); } /* Generic.Heading */
+.highlight .gi { background-color: var(--highlight-gi-background-color); font-weight: var(--highlight-gi-font-weight); border: var(--highlight-gi-border); color: var(--highlight-gi-color); } /* Generic.Inserted */
+.highlight .go { background-color: var(--highlight-go-background-color); font-weight: var(--highlight-go-font-weight); font-style: var(--highlight-go-font-style); color: var(--highlight-go-color); } /* Generic.Output */
+.highlight .gp { font-weight: var(--highlight-gp-font-weight); color: var(--highlight-gp-color); } /* Generic.Prompt */
+.highlight .gr { font-weight: var(--highlight-gr-font-weight); color: var(--highlight-gr-color); } /* Generic.Error */
+.highlight .gs { font-weight: var(--highlight-gs-font-weight); color: var(--highlight-gs-color); } /* Generic.Strong */
+.highlight .gt { font-weight: var(--highlight-gt-font-weight); background-color: var(--highlight-gt-background-color); color: var(--highlight-gt-color); } /* Generic.Traceback */
+.highlight .gu { font-weight: var(--highlight-gu-font-weight); text-decoration: var(--highlight-gu-text-decoration); color: var(--highlight-gu-color); } /* Generic.Subheading */
+.highlight .hll{ background-color: var(--highlight-hll-background-color); }
+.highlight .il { font-weight: var(--highlight-il-font-weight); font-style: var(--highlight-il-font-style); color: var(--highlight-il-color); } /* Literal.Number.Integer.Long */
+.highlight .k { font-weight: var(--highlight-k-font-weight); text-decoration: var(--highlight-k-text-decoration); color: var(--highlight-k-color); } /* Keyword */
+.highlight .k-Psuedo { color: var(--highlight-k-psuedo-color); } /* Keyword.Psuedo */
+.highlight .kc { font-weight: var(--highlight-kc-font-weight); text-decoration: var(--highlight-kc-text-decoration); font-style: var(--highlight-kc-font-style); color: var(--highlight-kc-color); } /* Keyword.Constant */
+.highlight .kd { font-weight: var(--highlight-kd-font-weight); text-decoration: var(--highlight-kd-text-decoration); font-style: var(--highlight-kd-font-style); color: var(--highlight-kd-color); } /* Keyword.Declaration */
+.highlight .kn { font-weight: var(--highlight-kn-font-weight); text-decoration: var(--highlight-kn-text-decoration); font-style: var(--highlight-kn-font-style); color: var(--highlight-kn-color); } /* Keyword.Namespace */
+.highlight .kp { font-weight: var(--highlight-kp-font-weight); text-decoration: var(--highlight-kp-text-decoration); color: var(--highlight-kp-color); } /* Keyword.Pseudo */
+.highlight .kr { font-weight: var(--highlight-kr-font-weight); text-decoration: var(--highlight-kr-text-decoration); color: var(--highlight-kr-color); } /* Keyword.Reserved */
+.highlight .kt { font-weight: var(--highlight-kt-font-weight); text-decoration: var(--highlight-kt-text-decoration); font-style: var(--highlight-kt-font-style); color: var(--highlight-kt-color); } /* Keyword.Type */
+.highlight .l { color: var(--highlight-l-color); } /* Literal */
+.highlight .ld { color: var(--highlight-ld-color); } /* Literal.Date */
+.highlight .m { font-weight: var(--highlight-m-font-weight); font-style: var(--highlight-m-font-style); color: var(--highlight-m-color); } /* Literal.Number */
+.highlight .mb { font-weight: var(--highlight-mb-font-weight); font-style: var(--highlight-mb-font-style); color: var(--highlight-mb-color); } /* Literal.Number.Bin */
+.highlight .mf { font-weight: var(--highlight-mf-font-weight); font-style: var(--highlight-mf-font-style); color: var(--highlight-mf-color); } /* Literal.Number.Float */
+.highlight .mh { font-weight: var(--highlight-mh-font-weight); font-style: var(--highlight-mh-font-style); color: var(--highlight-mh-color); } /* Literal.Number.Hex */
+.highlight .mi { font-weight: var(--highlight-mi-font-weight); font-style: var(--highlight-mi-font-style); color: var(--highlight-mi-color); } /* Literal.Number.Integer */
+.highlight .mo { font-weight: var(--highlight-mo-font-weight); font-style: var(--highlight-mo-font-style); color: var(--highlight-mo-color); } /* Literal.Number.Oct */
+.highlight .n { color: var(--highlight-n-color); } /* Name */
+.highlight .n-BackslashReference { color: var(--highlight-n-backslashreference-color); } /* Name.BackslashReference */
+.highlight .n-Builtins { color: var(--highlight-n-builtins-color); } /* Name.Builtins */
+.highlight .n-DatabaseTable { color: var(--highlight-n-databasetable-color); } /* Name.DatabaseTable */
+.highlight .n-ElementParameter { color: var(--highlight-n-elementparameter-color); } /* Name.ElementParameter */
+.highlight .n-Lvalue { color: var(--highlight-n-lvalue-color); } /* Name.Lvalue */
+.highlight .n-Parameter { color: var(--highlight-n-parameter-color); } /* Name.Parameter */
+.highlight .n-Pseudo { color: var(--highlight-n-pseudo-color); } /* Name.Pseudo */
+.highlight .na { font-weight: var(--highlight-na-font-weight); font-style: var(--highlight-na-font-style); color: var(--highlight-na-color); } /* Name.Attribute */
+.highlight .nb { font-weight: var(--highlight-nb-font-weight); font-style: var(--highlight-nb-font-style); color: var(--highlight-nb-color); } /* Name.Builtin */
+.highlight .nb-Articulation { color: var(--highlight-nb-articulation-color); } /* Name.Builtin.Articulation */
+.highlight .nb-Clef { font-weight: var(--highlight-nb-clef-font-weight); color: var(--highlight-nb-clef-color); } /* Name.Builtin.Clef */
+.highlight .nb-Context { font-weight: var(--highlight-nb-context-font-weight); color: var(--highlight-nb-context-color); } /* Name.Builtin.Context */
+.highlight .nb-ContextProperty { color: var(--highlight-nb-contextproperty-color); } /* Name.Builtin.ContextProperty */
+.highlight .nb-Dynamic { color: var(--highlight-nb-dynamic-color); } /* Name.Builtin.Dynamic */
+.highlight .nb-Grob { font-weight: var(--highlight-nb-grob-font-weight); color: var(--highlight-nb-grob-color); } /* Name.Builtin.Grob */
+.highlight .nb-GrobProperty { color: var(--highlight-nb-grobproperty-color); } /* Name.Builtin.GrobProperty */
+.highlight .nb-HeaderVariable { font-weight: var(--highlight-nb-headervariable-font-weight); color: var(--highlight-nb-headervariable-color); } /* Name.Builtin.HeaderVariable */
+.highlight .nb-MarkupCommand { font-weight: var(--highlight-nb-markupcommand-font-weight); color: var(--highlight-nb-markupcommand-color); } /* Name.Builtin.MarkupCommand */
+.highlight .nb-MusicCommand { font-weight: var(--highlight-nb-musiccommand-font-weight); color: var(--highlight-nb-musiccommand-color); } /* Name.Builtin.MusicCommand */
+.highlight .nb-MusicFunction { font-weight: var(--highlight-nb-musicfunction-font-weight); color: var(--highlight-nb-musicfunction-color); } /* Name.Builtin.MusicFunction */
+.highlight .nb-PaperVariable { font-weight: var(--highlight-nb-papervariable-font-weight); color: var(--highlight-nb-papervariable-color); } /* Name.Builtin.PaperVariable */
+.highlight .nb-RepeatType { color: var(--highlight-nb-repeattype-color); } /* Name.Builtin.RepeatType */
+.highlight .nb-Scale { font-weight: var(--highlight-nb-scale-font-weight); color: var(--highlight-nb-scale-color); } /* Name.Builtin.Scale */
+.highlight .nb-SchemeBuiltin { font-weight: var(--highlight-nb-schemebuiltin-font-weight); } /* Name.Builtin.SchemeBuiltin */
+.highlight .nb-SchemeFunction { font-weight: var(--highlight-nb-schemefunction-font-weight); color: var(--highlight-nb-schemefunction-color); } /* Name.Builtin.SchemeFunction */
+.highlight .nb-Translator { font-weight: var(--highlight-nb-translator-font-weight); color: var(--highlight-nb-translator-color); } /* Name.Builtin.Translator */
+.highlight .nc { font-weight: var(--highlight-nc-font-weight); text-decoration: var(--highlight-nc-text-decoration); font-style: var(--highlight-nc-font-style); color: var(--highlight-nc-color); } /* Name.Class */
+.highlight .nd { font-weight: var(--highlight-nd-font-weight); color: var(--highlight-nd-color); } /* Name.Decorator */
+.highlight .ne { font-weight: var(--highlight-ne-font-weight); color: var(--highlight-ne-color); } /* Name.Exception */
+.highlight .nf { font-weight: var(--highlight-nf-font-weight); font-style: var(--highlight-nf-font-style); color: var(--highlight-nf-color); } /* Name.Function */
+.highlight .ni { font-weight: var(--highlight-ni-font-weight); color: var(--highlight-ni-color); } /* Name.Entity */
+.highlight .nl { font-weight: var(--highlight-nl-font-weight); font-style: var(--highlight-nl-font-style); color: var(--highlight-nl-color); } /* Name.Label */
+.highlight .nn { font-weight: var(--highlight-nn-font-weight); text-decoration: var(--highlight-nn-text-decoration); font-style: var(--highlight-nn-font-style); color: var(--highlight-nn-color); } /* Name.Namespace */
+.highlight .no { font-weight: var(--highlight-no-font-weight); font-style: var(--highlight-no-font-style); color: var(--highlight-no-color); } /* Name.Constant */
+.highlight .nt { font-weight: var(--highlight-nt-font-weight); color: var(--highlight-nt-color); } /* Name.Tag */
+.highlight .nv { font-weight: var(--highlight-nv-font-weight); font-style: var(--highlight-nv-font-style); color: var(--highlight-nv-color); } /* Name.Variable */
+.highlight .nx { color: var(--highlight-nx-color); } /* Name.Other */
+.highlight .o { font-weight: var(--highlight-o-font-weight); color: var(--highlight-o-color); } /* Operator */
+.highlight .ow { font-weight: var(--highlight-ow-font-weight); font-style: var(--highlight-ow-font-style); color: var(--highlight-ow-color); } /* Operator.Word */
+.highlight .p { font-weight: var(--highlight-p-font-weight); color: var(--highlight-p-color); } /* Punctuation */
+.highlight .pm { font-weight: var(--highlight-pm-font-weight); color: var(--highlight-pm-color); } /* Punctuation.Marker */
+.highlight .py { font-weight: var(--highlight-py-font-weight); color: var(--highlight-py-color); } /* Name.Property */
+.highlight .s { background-color: var(--highlight-s-background-color); font-style: var(--highlight-s-font-style); color: var(--highlight-s-color); } /* Literal.String */
+.highlight .s1 { background-color: var(--highlight-s1-background-color); font-style: var(--highlight-s1-font-style); color: var(--highlight-s1-color); } /* Literal.String.Single */
+.highlight .s2 { background-color: var(--highlight-s2-background-color); font-style: var(--highlight-s2-font-style); color: var(--highlight-s2-color); } /* Literal.String.Double */
+.highlight .sa { background-color: var(--highlight-sa-background-color); font-style: var(--highlight-sa-font-style); color: var(--highlight-sa-color); } /* Literal.String.Affix */
+.highlight .sb { background-color: var(--highlight-sb-background-color); font-style: var(--highlight-sb-font-style); color: var(--highlight-sb-color); } /* Literal.String.Backtick */
+.highlight .sc { background-color: var(--highlight-sc-background-color); font-style: var(--highlight-sc-font-style); color: var(--highlight-sc-color); } /* Literal.String.Char */
+.highlight .sd { background-color: var(--highlight-sd-background-color); font-style: var(--highlight-sd-font-style); color: var(--highlight-sd-color); } /* Literal.String.Doc */
+.highlight .se { font-weight: var(--highlight-se-font-weight); background-color: var(--highlight-se-background-color); font-style: var(--highlight-se-font-style); color: var(--highlight-se-color); } /* Literal.String.Escape */
+.highlight .sh { background-color: var(--highlight-sh-background-color); font-style: var(--highlight-sh-font-style); color: var(--highlight-sh-color); } /* Literal.String.Heredoc */
+.highlight .si { background-color: var(--highlight-si-background-color); text-decoration: var(--highlight-si-text-decoration); color: var(--highlight-si-color); font-weight: var(--highlight-si-font-weight); font-style: var(--highlight-si-font-style); } /* Literal.String.Interpol */
+.highlight .sr { background-color: var(--highlight-sr-background-color); font-style: var(--highlight-sr-font-style); color: var(--highlight-sr-color); } /* Literal.String.Regex */
+.highlight .ss { background-color: var(--highlight-ss-background-color); font-weight: var(--highlight-ss-font-weight); font-style: var(--highlight-ss-font-style); color: var(--highlight-ss-color); } /* Literal.String.Symbol */
+.highlight .sx { background-color: var(--highlight-sx-background-color); font-style: var(--highlight-sx-font-style); color: var(--highlight-sx-color); } /* Literal.String.Other */
+.highlight .vc { font-weight: var(--highlight-vc-font-weight); font-style: var(--highlight-vc-font-style); color: var(--highlight-vc-color); } /* Name.Variable.Class */
+.highlight .vg { font-weight: var(--highlight-vg-font-weight); font-style: var(--highlight-vg-font-style); color: var(--highlight-vg-color); } /* Name.Variable.Global */
+.highlight .vi { font-weight: var(--highlight-vi-font-weight); font-style: var(--highlight-vi-font-style); color: var(--highlight-vi-color); } /* Name.Variable.Instance */
+.highlight .vm { font-weight: var(--highlight-vm-font-weight); font-style: var(--highlight-vm-font-style); color: var(--highlight-vm-color); } /* Name.Variable.Magic */
+.highlight .w { color: var(--highlight-w-color); } /* Text.Whitespace */
+.highlight .x { background-color: var(--highlight-x-background-color); color: var(--highlight-x-color); } /* Other */
+pre{ line-height: var(--pre-line-height); }
+span.linenos{ background-color: var(--span-linenos-background-color); padding-right: var(--span-linenos-padding-right); padding-left: var(--span-linenos-padding-left); color: var(--span-linenos-color); }
+span.linenos.special{ background-color: var(--span-linenos-special-background-color); padding-right: var(--span-linenos-special-padding-right); padding-left: var(--span-linenos-special-padding-left); color: var(--span-linenos-special-color); }
+td.linenos .normal{ background-color: var(--td-linenos-normal-background-color); padding-right: var(--td-linenos-normal-padding-right); padding-left: var(--td-linenos-normal-padding-left); color: var(--td-linenos-normal-color); }
+td.linenos .special{ background-color: var(--td-linenos-special-background-color); padding-right: var(--td-linenos-special-padding-right); padding-left: var(--td-linenos-special-padding-left); color: var(--td-linenos-special-color); }
