@@ -4,7 +4,7 @@ span.linenos { color: #D8DEE9; background-color: #242933; padding-left: 5px; pad
 td.linenos .special { color: #242933; background-color: #D8DEE9; padding-left: 5px; padding-right: 5px; }
 span.linenos.special { color: #242933; background-color: #D8DEE9; padding-left: 5px; padding-right: 5px; }
 .highlight .hll { background-color: #3B4252 }
-.highlight { background: #2E3440; color: #d8dee9 }
+.highlight { background: #242933; color: #d8dee9 }
 .highlight .c { color: #616e87; font-style: italic } /* Comment */
 .highlight .err { color: #bf616a } /* Error */
 .highlight .esc { color: #d8dee9 } /* Escape */
