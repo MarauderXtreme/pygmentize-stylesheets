@@ -1,0 +1,175 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "4dc8ae6b74ddcfa3b6eb121ce311b565f869e8f226bb7eb74d0e3182380391af"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "aimms-pygments-style": {
+            "hashes": [
+                "sha256:00447826e16b3a4e12d7190416f656786181ac989d10bf016423ddc2568694da"
+            ],
+            "index": "pypi",
+            "version": "==2020.7.8"
+        },
+        "cssutils": {
+            "hashes": [
+                "sha256:30c72f3a5c5951a11151640600aae7b3bf10e4c0d5c87f5bc505c2cd4a26e0c2",
+                "sha256:f7dcd23c1cec909fdf3630de346e1413b7b2555936dec14ba2ebb9913bf0818e"
+            ],
+            "index": "pypi",
+            "version": "==2.6.0"
+        },
+        "friendly-styles": {
+            "hashes": [
+                "sha256:2041b76fbb84888472e366057614ff71e14aca721eb9a9a4738306508171faf5",
+                "sha256:96d935971fd7b6d782d6fb1346d57be2b075bce086997956bdff85cb4d0ad6cd"
+            ],
+            "index": "pypi",
+            "version": "==0.2"
+        },
+        "nord-pygments": {
+            "hashes": [
+                "sha256:df3fb9c8a2a906222070f55314fd179e6bce0d3fa5c5626ab9526f80c3c42da5",
+                "sha256:fba64359b9b0360e9d140f4ab31487c888d3e99bba50c84ef5fa25832dc76c14"
+            ],
+            "index": "pypi",
+            "version": "==0.0.3"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297",
+                "sha256:fa7bd7bd2771287c0de303af8bfdfc731f51bd2c6a47ab69d117138893b82717"
+            ],
+            "index": "pypi",
+            "version": "==2.14.0"
+        },
+        "pygments-base16": {
+            "hashes": [
+                "sha256:c85a74be2cead720bf16c08e724dbfe39a15f3583ea0413991169710d9e025f3"
+            ],
+            "index": "pypi",
+            "version": "==1.0.3"
+        },
+        "pygments-onehalf": {
+            "hashes": [
+                "sha256:68d9ab9d7b9821e531a34121c0a71781cfa75056d63372cab86a7c7030769b6f",
+                "sha256:e5bdf52980072f84ddeccb751d31f22d5d7221dbae073c20161ddbb5fad9a2ee"
+            ],
+            "index": "pypi",
+            "version": "==1.0.0"
+        },
+        "pygments-solarized-style": {
+            "hashes": [
+                "sha256:244ed2d2f407bfc0dc486a254decf6727f416e24215fd1bd92554aa388c94990"
+            ],
+            "index": "pypi",
+            "version": "==0.1"
+        },
+        "pygments-style-apprentice": {
+            "hashes": [
+                "sha256:842be643245aabdd02fdc92042b7b27a015c0b3cb4b49a6a5583d0fbeb58fade",
+                "sha256:c6657da111b7f88f9106d38d9b59c1fd2547a956e15cddc5b4a4580999f0580d"
+            ],
+            "index": "pypi",
+            "version": "==0.1.0"
+        },
+        "pygments-style-cheerfully-dark": {
+            "hashes": [
+                "sha256:bcc3c1b714f748cfe88a0d6fe5d8307ef528f9b565154350b4f23f5b91e96a7a"
+            ],
+            "index": "pypi",
+            "version": "==0.1"
+        },
+        "pygments-style-exponent": {
+            "hashes": [
+                "sha256:59d907deac4c0f215741e04e7259187e0689081157d5711d5ccf4219411b8562"
+            ],
+            "index": "pypi",
+            "version": "==0.1"
+        },
+        "pygments-style-heringer": {
+            "hashes": [
+                "sha256:6fed704c60831ee1359d30b36db9b5120125911272b7b85d337d4485c5a49371",
+                "sha256:c113f61d1d0ae43463365114638acfaa5c3069ff003b343a9b8734d64f509767"
+            ],
+            "index": "pypi",
+            "version": "==0.2"
+        },
+        "pygments-style-monokailight": {
+            "hashes": [
+                "sha256:2711b63aef6f2cfa443a946d12ac92cd29e4629f72e9de984502cf6a0b1f84b1"
+            ],
+            "index": "pypi",
+            "version": "==0.4"
+        },
+        "pygments-style-rub": {
+            "hashes": [
+                "sha256:927d1a4f864fb68fdb49d00a9664df4cfdb21030a9653bed0298d2b19bd6dd5c",
+                "sha256:b65862d6b6b848ef97f6a5b78ddf7d3d4fcd7a85fb7ef238095a0b91fe18b2e7",
+                "sha256:c8df765d5b7d38e9dfe24907c16c472d914b008f996814f05e7075f6cde43ac7"
+            ],
+            "index": "pypi",
+            "version": "==0.1.2"
+        },
+        "pygments-style-spacemacs": {
+            "hashes": [
+                "sha256:10d15caccef22c74c81121fff7d7d15a5108f740e8b0b47f414e2a19fc29d6d1",
+                "sha256:97efb718ae2c87bb252b8fe5837de593c5daf636ddf15ea5d17bf91609a672c2"
+            ],
+            "index": "pypi",
+            "version": "==1.0.0.1"
+        },
+        "pygments-style-ssms": {
+            "hashes": [
+                "sha256:6ce1e961eeb77f34df6e27bbd823587747840a1c9836a7f96d7755baba4fdbfe",
+                "sha256:7c350e15caef56b30702937b2c2d0253fb2a3bed5c30db4f20d9bdc8fbc4734a"
+            ],
+            "index": "pypi",
+            "version": "==0.5"
+        },
+        "pygments-style-tomorrow": {
+            "hashes": [
+                "sha256:4132c31f11738f6bed52d43a3f187aa3b889a118f9a29b40d1f6afb5bb1037be",
+                "sha256:f5060ce35d598bf063a092db499782160b94d3d79f0fec96d527f20b5cd12743"
+            ],
+            "index": "pypi",
+            "version": "==1.0.0.1"
+        },
+        "pygments-style-tomorrownightbright": {
+            "hashes": [
+                "sha256:76ba2e1d3bd184239d2e8a38e51194b5dd2ff1fd263cc1f247950461124a44b2",
+                "sha256:ed3bfc4c629e15a154d85df754ca2f05bb847fcefa43c82e2aafac26d3713c2c"
+            ],
+            "index": "pypi",
+            "version": "==0.2"
+        },
+        "pygments-vice": {
+            "hashes": [
+                "sha256:4bee353f0db6a83d8b8134ae8146500a904106095bc2cd5856e43dce2eb820bf",
+                "sha256:91c75ce005d7d25da703fe2e5b2a155de70d9e934f4ac0f20928004464810eff",
+                "sha256:964f197ff184b9ccfbeee08583b3641dcfd655c9d95b087d370128c9ead91364"
+            ],
+            "index": "pypi",
+            "version": "==0.1.3"
+        },
+        "pygments-vsc-style": {
+            "hashes": [
+                "sha256:ca3a58033cfe068b2f1d2fde15aa6085573a7f5ee5d49606c17b2006b8664fa4",
+                "sha256:d64265f8aae2d7bf9fcd5e872deb834b5d593ec7cc26abc4038fb47ca8d3e4b6"
+            ],
+            "index": "pypi",
+            "version": "==0.0.3"
+        }
+    },
+    "develop": {}
+}
