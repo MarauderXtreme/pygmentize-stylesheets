@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cssutils = "*"
+pygments = "*"
+aimms-pygments-style = "*"
+pygments-style-apprentice = "*"
+pygments-base16 = "*"
+pygments-style-cheerfully-dark = "*"
+pygments-style-exponent = "*"
+friendly-styles = "*"
+pygments-style-heringer = "*"
+pygments-style-monokailight = "*"
+nord-pygments = "*"
+pygments-onehalf = "*"
+pygments-style-rub = "*"
+pygments-solarized-style = "*"
+pygments-style-spacemacs = "*"
+pygments-style-ssms = "*"
+pygments-style-tomorrow = "*"
+pygments-style-tomorrownightbright = "*"
+pygments-vice = "*"
+pygments-vsc-style = "*"
