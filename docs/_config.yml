@@ -38,18 +38,10 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
-  - node_modules/
-  - vendor/
-  - scss
-  - cache
-  - src
-  - Pipfile
-  - Pipfile.lock
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - vendor/
 
 sass:
   sass_dir: _scss
