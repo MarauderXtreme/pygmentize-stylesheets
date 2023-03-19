@@ -131,7 +131,7 @@ def generate_var_css(css_files, structured_properties):
 
 css_files = pickle_cache('css_files')
 if not css_files:
-    css_files = get_css_files("css")
+    css_files = get_css_files("css/themes")
     pickle_caching(css_files, 'css_files')
 
 all_classes = pickle_cache('all_classes')
