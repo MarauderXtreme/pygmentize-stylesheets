@@ -1,0 +1,24 @@
+{% if include.preview %}
+{% capture src-code %}{% include src-code.md %}{% endcapture %}
+{% endif %}
+{% assign themes = site.static_files | where: "css-theme", true %}
+<div class="theme-list">
+{% for theme in themes %}
+<h2 id="{{ theme.basename }}">{{ theme.basename }}</h2>
+<div class="theme">
+{% if include.download == false %}
+{% if include.preview == false %}
+<a href="{{ site.baseurl }}/preview#{{ theme.basename }}">Preview</a> | 
+{% endif %}
+<a href="{{ theme.path | prepend: site.baseurl }}">Preview CSS</a> | 
+{% endif %}
+<a href="{{ theme.path | prepend: site.baseurl }}" download>Download CSS</a> | 
+<a href="{{ site.baseurl }}/dist/themes/{{ theme.basename | append: '.scss' }}" download>Download SCSS-Mixin</a>
+{% if include.preview %}
+<div class="{{ theme.basename }}">
+	{{ src-code | markdownify | replace: '<h1 id="', '<h3 class="headline-' | replace: '</h1>', '</h3>' | replace: '<h2 id="', '<h3 class="headline-' | replace: '</h2>', '</h3>' | replace: '<h3 id="', '<h3 class="headline-' }}
+</div>
+{% endif %}
+</div>
+{% endfor %}
+</div>

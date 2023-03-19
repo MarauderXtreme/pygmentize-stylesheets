@@ -1,0 +1,24 @@
+.no-js .theme-list {
+	.headline-javascript ,
+	.headline-scss,
+	.headline-html,
+	.language-javascript,
+	.language-scss,
+	.language-html {
+		display: none;
+
+	}
+
+}
+
+.theme-list .theme {
+	padding: 0.3em 0.4em 0.2em;
+	border: 0.1em var(--font-color) solid;
+
+}
+
+.downloads .theme-list .theme {
+	padding: inherit;
+	border: inherit;
+	
+}

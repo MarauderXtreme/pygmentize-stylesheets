@@ -1,0 +1,45 @@
+html, body {
+  font-family: "Helvetica", "Arial", sans-serif;
+};
+
+body {
+	margin: 0 auto;
+	max-width: 70em;
+  color: var(--font-color);
+  background-color: var(--bg-color);
+	line-height: 1.5;
+	padding: 2em 1em 4em;
+}
+
+a {
+  color: var(--link-color);
+
+  &:visited {
+    color: var(--link-color-visited);
+  }
+}
+
+h1, h2, strong {
+	color: var(--heading-color);
+}
+
+h2 {
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+.footnotes {
+  font-size: 0.75rem;
+
+  p {
+    margin: 0;
+
+  }
+}
+
+pre.highlight {
+  font-size: 0.8rem;
+	padding: 0.4em 0.5em 0.3em;
+	overflow-y: auto;
+
+}

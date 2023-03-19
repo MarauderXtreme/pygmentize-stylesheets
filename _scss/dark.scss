@@ -1,0 +1,23 @@
+@mixin dark-scheme {
+	--font-color: #e3e0d7;
+	--bg-color: #242424;
+	--heading-color: #fff;
+	--link-color: #80a0ff;
+	--link-color-visited: #d787ff;
+
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		@include dark-scheme;
+		@include base16-outrun-dark-pygment;
+	
+	}
+
+}
+
+[data-theme="dark"]:root {
+	@include dark-scheme;
+	@include base16-outrun-dark-pygment;
+
+}

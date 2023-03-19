@@ -1,0 +1,700 @@
+.abap {
+	@include abap-pygment;
+}
+
+.aimmslexer {
+	@include aimmslexer-pygment;
+}
+
+.algol {
+	@include algol-pygment;
+}
+
+.algol_nu {
+	@include algol_nu-pygment;
+}
+
+.apprentice {
+	@include apprentice-pygment;
+}
+
+.arduino {
+	@include arduino-pygment;
+}
+
+.autumn {
+	@include autumn-pygment;
+}
+
+.base16-3024 {
+	@include base16-3024-pygment;
+}
+
+.base16-apathy {
+	@include base16-apathy-pygment;
+}
+
+.base16-ashes {
+	@include base16-ashes-pygment;
+}
+
+.base16-atelier-cave-light {
+	@include base16-atelier-cave-light-pygment;
+}
+
+.base16-atelier-cave {
+	@include base16-atelier-cave-pygment;
+}
+
+.base16-atelier-dune-light {
+	@include base16-atelier-dune-light-pygment;
+}
+
+.base16-atelier-dune {
+	@include base16-atelier-dune-pygment;
+}
+
+.base16-atelier-estuary-light {
+	@include base16-atelier-estuary-light-pygment;
+}
+
+.base16-atelier-estuary {
+	@include base16-atelier-estuary-pygment;
+}
+
+.base16-atelier-forest-light {
+	@include base16-atelier-forest-light-pygment;
+}
+
+.base16-atelier-forest {
+	@include base16-atelier-forest-pygment;
+}
+
+.base16-atelier-heath-light {
+	@include base16-atelier-heath-light-pygment;
+}
+
+.base16-atelier-heath {
+	@include base16-atelier-heath-pygment;
+}
+
+.base16-atelier-lakeside-light {
+	@include base16-atelier-lakeside-light-pygment;
+}
+
+.base16-atelier-lakeside {
+	@include base16-atelier-lakeside-pygment;
+}
+
+.base16-atelier-plateau-light {
+	@include base16-atelier-plateau-light-pygment;
+}
+
+.base16-atelier-plateau {
+	@include base16-atelier-plateau-pygment;
+}
+
+.base16-atelier-savanna-light {
+	@include base16-atelier-savanna-light-pygment;
+}
+
+.base16-atelier-savanna {
+	@include base16-atelier-savanna-pygment;
+}
+
+.base16-atelier-seaside-light {
+	@include base16-atelier-seaside-light-pygment;
+}
+
+.base16-atelier-seaside {
+	@include base16-atelier-seaside-pygment;
+}
+
+.base16-atelier-sulphurpool-light {
+	@include base16-atelier-sulphurpool-light-pygment;
+}
+
+.base16-atelier-sulphurpool {
+	@include base16-atelier-sulphurpool-pygment;
+}
+
+.base16-bespin {
+	@include base16-bespin-pygment;
+}
+
+.base16-brewer {
+	@include base16-brewer-pygment;
+}
+
+.base16-bright {
+	@include base16-bright-pygment;
+}
+
+.base16-brushtrees-dark {
+	@include base16-brushtrees-dark-pygment;
+}
+
+.base16-brushtrees {
+	@include base16-brushtrees-pygment;
+}
+
+.base16-chalk {
+	@include base16-chalk-pygment;
+}
+
+.base16-circus {
+	@include base16-circus-pygment;
+}
+
+.base16-classic-dark {
+	@include base16-classic-dark-pygment;
+}
+
+.base16-classic-light {
+	@include base16-classic-light-pygment;
+}
+
+.base16-codeschool {
+	@include base16-codeschool-pygment;
+}
+
+.base16-cupcake {
+	@include base16-cupcake-pygment;
+}
+
+.base16-cupertino {
+	@include base16-cupertino-pygment;
+}
+
+.base16-darktooth {
+	@include base16-darktooth-pygment;
+}
+
+.base16-default-dark {
+	@include base16-default-dark-pygment;
+}
+
+.base16-default-light {
+	@include base16-default-light-pygment;
+}
+
+.base16-dracula {
+	@include base16-dracula-pygment;
+}
+
+.base16-eighties {
+	@include base16-eighties-pygment;
+}
+
+.base16-embers {
+	@include base16-embers-pygment;
+}
+
+.base16-flat {
+	@include base16-flat-pygment;
+}
+
+.base16-github {
+	@include base16-github-pygment;
+}
+
+.base16-google-dark {
+	@include base16-google-dark-pygment;
+}
+
+.base16-google-light {
+	@include base16-google-light-pygment;
+}
+
+.base16-grayscale-dark {
+	@include base16-grayscale-dark-pygment;
+}
+
+.base16-grayscale-light {
+	@include base16-grayscale-light-pygment;
+}
+
+.base16-greenscreen {
+	@include base16-greenscreen-pygment;
+}
+
+.base16-gruvbox-dark-hard {
+	@include base16-gruvbox-dark-hard-pygment;
+}
+
+.base16-gruvbox-dark-medium {
+	@include base16-gruvbox-dark-medium-pygment;
+}
+
+.base16-gruvbox-dark-pale {
+	@include base16-gruvbox-dark-pale-pygment;
+}
+
+.base16-gruvbox-dark-soft {
+	@include base16-gruvbox-dark-soft-pygment;
+}
+
+.base16-gruvbox-light-hard {
+	@include base16-gruvbox-light-hard-pygment;
+}
+
+.base16-gruvbox-light-medium {
+	@include base16-gruvbox-light-medium-pygment;
+}
+
+.base16-gruvbox-light-soft {
+	@include base16-gruvbox-light-soft-pygment;
+}
+
+.base16-harmonic-dark {
+	@include base16-harmonic-dark-pygment;
+}
+
+.base16-harmonic-light {
+	@include base16-harmonic-light-pygment;
+}
+
+.base16-hopscotch {
+	@include base16-hopscotch-pygment;
+}
+
+.base16-icy {
+	@include base16-icy-pygment;
+}
+
+.base16-irblack {
+	@include base16-irblack-pygment;
+}
+
+.base16-isotope {
+	@include base16-isotope-pygment;
+}
+
+.base16-macintosh {
+	@include base16-macintosh-pygment;
+}
+
+.base16-marrakesh {
+	@include base16-marrakesh-pygment;
+}
+
+.base16-materia {
+	@include base16-materia-pygment;
+}
+
+.base16-material-darker {
+	@include base16-material-darker-pygment;
+}
+
+.base16-material-lighter {
+	@include base16-material-lighter-pygment;
+}
+
+.base16-material-palenight {
+	@include base16-material-palenight-pygment;
+}
+
+.base16-material {
+	@include base16-material-pygment;
+}
+
+.base16-mellow-purple {
+	@include base16-mellow-purple-pygment;
+}
+
+.base16-mexico-light {
+	@include base16-mexico-light-pygment;
+}
+
+.base16-mocha {
+	@include base16-mocha-pygment;
+}
+
+.base16-monokai {
+	@include base16-monokai-pygment;
+}
+
+.base16-nord {
+	@include base16-nord-pygment;
+}
+
+.base16-ocean {
+	@include base16-ocean-pygment;
+}
+
+.base16-oceanicnext {
+	@include base16-oceanicnext-pygment;
+}
+
+.base16-one-light {
+	@include base16-one-light-pygment;
+}
+
+.base16-onedark {
+	@include base16-onedark-pygment;
+}
+
+.base16-outrun-dark {
+	@include base16-outrun-dark-pygment;
+}
+
+.base16-paraiso {
+	@include base16-paraiso-pygment;
+}
+
+.base16-phd {
+	@include base16-phd-pygment;
+}
+
+.base16-pico {
+	@include base16-pico-pygment;
+}
+
+.base16-pop {
+	@include base16-pop-pygment;
+}
+
+.base16-porple {
+	@include base16-porple-pygment;
+}
+
+.base16-railscasts {
+	@include base16-railscasts-pygment;
+}
+
+.base16-rebecca {
+	@include base16-rebecca-pygment;
+}
+
+.base16-seti {
+	@include base16-seti-pygment;
+}
+
+.base16-shapeshifter {
+	@include base16-shapeshifter-pygment;
+}
+
+.base16-solarflare {
+	@include base16-solarflare-pygment;
+}
+
+.base16-solarized-dark {
+	@include base16-solarized-dark-pygment;
+}
+
+.base16-solarized-light {
+	@include base16-solarized-light-pygment;
+}
+
+.base16-spacemacs {
+	@include base16-spacemacs-pygment;
+}
+
+.base16-summerfruit-dark {
+	@include base16-summerfruit-dark-pygment;
+}
+
+.base16-summerfruit-light {
+	@include base16-summerfruit-light-pygment;
+}
+
+.base16-tomorrow-night {
+	@include base16-tomorrow-night-pygment;
+}
+
+.base16-tomorrow {
+	@include base16-tomorrow-pygment;
+}
+
+.base16-tube {
+	@include base16-tube-pygment;
+}
+
+.base16-twilight {
+	@include base16-twilight-pygment;
+}
+
+.base16-unikitty-dark {
+	@include base16-unikitty-dark-pygment;
+}
+
+.base16-unikitty-light {
+	@include base16-unikitty-light-pygment;
+}
+
+.base16-woodland {
+	@include base16-woodland-pygment;
+}
+
+.base16-xcode-dusk {
+	@include base16-xcode-dusk-pygment;
+}
+
+.base16-zenburn {
+	@include base16-zenburn-pygment;
+}
+
+.borland {
+	@include borland-pygment;
+}
+
+.bw {
+	@include bw-pygment;
+}
+
+.cheerfully_dark {
+	@include cheerfully_dark-pygment;
+}
+
+.colorful {
+	@include colorful-pygment;
+}
+
+.default {
+	@include default-pygment;
+}
+
+.dracula {
+	@include dracula-pygment;
+}
+
+.emacs {
+	@include emacs-pygment;
+}
+
+.exponent {
+	@include exponent-pygment;
+}
+
+.friendly {
+	@include friendly-pygment;
+}
+
+.friendly_dark {
+	@include friendly_dark-pygment;
+}
+
+.friendly_grayscale {
+	@include friendly_grayscale-pygment;
+}
+
+.friendly_light {
+	@include friendly_light-pygment;
+}
+
+.fruity {
+	@include fruity-pygment;
+}
+
+.github-dark {
+	@include github-dark-pygment;
+}
+
+.gruvbox-dark {
+	@include gruvbox-dark-pygment;
+}
+
+.gruvbox-light {
+	@include gruvbox-light-pygment;
+}
+
+.heringer {
+	@include heringer-pygment;
+}
+
+.igor {
+	@include igor-pygment;
+}
+
+.inkpot {
+	@include inkpot-pygment;
+}
+
+.lilypond {
+	@include lilypond-pygment;
+}
+
+.lovelace {
+	@include lovelace-pygment;
+}
+
+.manni {
+	@include manni-pygment;
+}
+
+.material {
+	@include material-pygment;
+}
+
+.monokai {
+	@include monokai-pygment;
+}
+
+.monokailight {
+	@include monokailight-pygment;
+}
+
+.murphy {
+	@include murphy-pygment;
+}
+
+.native {
+	@include native-pygment;
+}
+
+.nord-darker {
+	@include nord-darker-pygment;
+}
+
+.nord {
+	@include nord-pygment;
+}
+
+.one-dark {
+	@include one-dark-pygment;
+}
+
+.onehalf-dark {
+	@include onehalf-dark-pygment;
+}
+
+.onehalf-light {
+	@include onehalf-light-pygment;
+}
+
+.paraiso-dark {
+	@include paraiso-dark-pygment;
+}
+
+.paraiso-light {
+	@include paraiso-light-pygment;
+}
+
+.pastie {
+	@include pastie-pygment;
+}
+
+.perldoc {
+	@include perldoc-pygment;
+}
+
+.rainbow_dash {
+	@include rainbow_dash-pygment;
+}
+
+.rrt {
+	@include rrt-pygment;
+}
+
+.rub {
+	@include rub-pygment;
+}
+
+.sas {
+	@include sas-pygment;
+}
+
+.soft-era {
+	@include soft-era-pygment;
+}
+
+.solarized-dark {
+	@include solarized-dark-pygment;
+}
+
+.solarized-light {
+	@include solarized-light-pygment;
+}
+
+.solarizeddark {
+	@include solarizeddark-pygment;
+}
+
+.solarizedlight {
+	@include solarizedlight-pygment;
+}
+
+.spacemacs-dark {
+	@include spacemacs-dark-pygment;
+}
+
+.spacemacs-light {
+	@include spacemacs-light-pygment;
+}
+
+.ssms {
+	@include ssms-pygment;
+}
+
+.staroffice {
+	@include staroffice-pygment;
+}
+
+.stata-dark {
+	@include stata-dark-pygment;
+}
+
+.stata-light {
+	@include stata-light-pygment;
+}
+
+.stata {
+	@include stata-pygment;
+}
+
+.tango {
+	@include tango-pygment;
+}
+
+.tomorrow-day {
+	@include tomorrow-day-pygment;
+}
+
+.tomorrow-night-blue {
+	@include tomorrow-night-blue-pygment;
+}
+
+.tomorrow-night-bright {
+	@include tomorrow-night-bright-pygment;
+}
+
+.tomorrow-night-eighties {
+	@include tomorrow-night-eighties-pygment;
+}
+
+.tomorrow-night {
+	@include tomorrow-night-pygment;
+}
+
+.tomorrownightbright {
+	@include tomorrownightbright-pygment;
+}
+
+.trac {
+	@include trac-pygment;
+}
+
+.vice {
+	@include vice-pygment;
+}
+
+.vim {
+	@include vim-pygment;
+}
+
+.vs {
+	@include vs-pygment;
+}
+
+.vsc {
+	@include vsc-pygment;
+}
+
+.xcode {
+	@include xcode-pygment;
+}
+
+.zenburn {
+	@include zenburn-pygment;
+}
+

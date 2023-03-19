@@ -1,0 +1,32 @@
+.hide-for-small-only {
+  display: none !important;
+
+}
+
+nav {
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	li {
+		display: list-item;
+
+	}
+}
+
+@media screen and (min-width: 45em) {
+  .hide-for-small-only {
+    display: initial !important;
+
+  }
+	nav {
+		li {
+			display: inline-flex;
+		}
+	}
+
+}
+
+@media screen and (min-width: 60em) {
+
+}

@@ -101,6 +101,21 @@ def structure_properties(properties):
         structure[rule[0]] = css_property
     return structure
 
+def generate_all_include(css_files):
+    with open('dist/all-themes.scss', 'w') as all_file:
+        print(f'@charset "utf-8";\n', file=all_file)
+        for file in css_files:
+            theme_name = file.split('/')[-1].replace('.css', '')
+            print(f"@import 'themes/{theme_name}';",file=all_file)
+
+def generate_classes_for_themes(css_files):
+    with open('dist/all-themes-classes.scss', 'w') as all_file:
+        for file in css_files:
+            theme_name = file.split('/')[-1].replace('.css', '')
+            print(f".{theme_name} {{",file=all_file)
+            print(f"\t@include {theme_name}-pygment;",file=all_file)
+            print(f"}}\n",file=all_file)
+
 def generate_var_css(css_files, structured_properties):
     for file in css_files:
         parser = cssutils.parse.CSSParser()
@@ -145,4 +160,6 @@ if not all_properties:
     pickle_caching(all_properties, 'all_properties')
 
 generate_highlight_css(all_properties)
+generate_all_include(css_files)
+generate_classes_for_themes(css_files)
 generate_var_css(css_files, structure_properties(all_properties))

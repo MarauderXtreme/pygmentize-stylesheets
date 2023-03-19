@@ -1,0 +1,14 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html class="no-js">
+	{% include head.html %}
+	<body>
+    {% include header.html %}
+		<main id="content" class="{{ page.title | downcase | replace: ' ', '-' }}">
+			{{ content }}
+    </main>
+    {% include lateload.html %}
+	</body>
+</html>

@@ -1,0 +1,23 @@
+@mixin light-scheme {
+	--font-color: #566b78;
+	--bg-color: #fff;
+	--heading-color: #333;
+	--link-color: #00e;
+	--link-color-visited: #551A8B;
+
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		@include light-scheme;
+		@include heringer-pygment;
+		
+	}
+
+}
+
+[data-theme="light"]:root {
+	@include light-scheme;
+	@include heringer-pygment;
+
+}
