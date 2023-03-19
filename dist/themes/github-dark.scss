@@ -1,4 +1,4 @@
-.github-dark {
+@mixin github-dark-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #0d1117;
 	--highlight-bp-color: #c9d1d9;	/* Name.Builtin.Pseudo */

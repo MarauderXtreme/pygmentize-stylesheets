@@ -1,4 +1,4 @@
-.base16-one-light {
+@mixin base16-one-light-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fafafa;
 	--highlight-bp-color: #ca1243;	/* Name.Builtin.Pseudo */

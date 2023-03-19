@@ -1,4 +1,4 @@
-.base16-flat {
+@mixin base16-flat-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #2C3E50;
 	--highlight-bp-color: #E74C3C;	/* Name.Builtin.Pseudo */

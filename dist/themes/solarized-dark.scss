@@ -1,4 +1,4 @@
-.solarized-dark {
+@mixin solarized-dark-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #002b36;
 	--highlight-bp-color: #268bd2;	/* Name.Builtin.Pseudo */

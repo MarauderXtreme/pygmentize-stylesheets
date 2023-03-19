@@ -1,4 +1,4 @@
-.friendly_dark {
+@mixin friendly_dark-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #101010;
 	--highlight-bp-color: #F0E68C;	/* Name.Builtin.Pseudo */

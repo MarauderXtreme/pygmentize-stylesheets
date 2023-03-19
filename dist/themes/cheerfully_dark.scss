@@ -1,4 +1,4 @@
-.cheerfully_dark {
+@mixin cheerfully_dark-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #0C0C0C;
 	--highlight-bp-color: #5597D6;	/* Name.Builtin.Pseudo */

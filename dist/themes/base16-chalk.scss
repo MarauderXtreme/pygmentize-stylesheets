@@ -1,4 +1,4 @@
-.base16-chalk {
+@mixin base16-chalk-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #151515;
 	--highlight-bp-color: #fb9fb1;	/* Name.Builtin.Pseudo */

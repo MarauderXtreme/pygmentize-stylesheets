@@ -1,4 +1,4 @@
-.base16-bright {
+@mixin base16-bright-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #000;
 	--highlight-bp-color: #fb0120;	/* Name.Builtin.Pseudo */

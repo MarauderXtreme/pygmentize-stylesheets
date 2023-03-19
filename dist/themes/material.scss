@@ -1,4 +1,4 @@
-.material {
+@mixin material-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #263238;
 	--highlight-bp-color: #89DDFF;	/* Name.Builtin.Pseudo */

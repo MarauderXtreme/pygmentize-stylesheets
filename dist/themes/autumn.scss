@@ -1,4 +1,4 @@
-.autumn {
+@mixin autumn-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #0aa;	/* Name.Builtin.Pseudo */

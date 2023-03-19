@@ -1,4 +1,4 @@
-.base16-irblack {
+@mixin base16-irblack-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #000;
 	--highlight-bp-color: #ff6c60;	/* Name.Builtin.Pseudo */

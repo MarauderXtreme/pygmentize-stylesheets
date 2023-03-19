@@ -1,4 +1,4 @@
-.base16-material-lighter {
+@mixin base16-material-lighter-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #FAFAFA;
 	--highlight-bp-color: #FF5370;	/* Name.Builtin.Pseudo */

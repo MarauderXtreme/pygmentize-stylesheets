@@ -1,4 +1,4 @@
-.base16-mocha {
+@mixin base16-mocha-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #3B3228;
 	--highlight-bp-color: #cb6077;	/* Name.Builtin.Pseudo */

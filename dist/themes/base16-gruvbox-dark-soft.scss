@@ -1,4 +1,4 @@
-.base16-gruvbox-dark-soft {
+@mixin base16-gruvbox-dark-soft-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #32302f;
 	--highlight-bp-color: #fb4934;	/* Name.Builtin.Pseudo */

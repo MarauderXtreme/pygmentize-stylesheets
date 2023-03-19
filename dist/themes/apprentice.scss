@@ -1,4 +1,4 @@
-.apprentice {
+@mixin apprentice-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #8fafd7;	/* Name.Builtin.Pseudo */

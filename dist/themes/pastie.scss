@@ -1,4 +1,4 @@
-.pastie {
+@mixin pastie-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #038;	/* Name.Builtin.Pseudo */

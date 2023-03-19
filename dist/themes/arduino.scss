@@ -1,4 +1,4 @@
-.arduino {
+@mixin arduino-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #728E00;	/* Name.Builtin.Pseudo */

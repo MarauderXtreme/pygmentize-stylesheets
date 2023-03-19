@@ -1,4 +1,4 @@
-.default {
+@mixin default-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #f8f8f8;
 	--highlight-bp-color: #008000;	/* Name.Builtin.Pseudo */

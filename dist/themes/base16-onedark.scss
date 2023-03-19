@@ -1,4 +1,4 @@
-.base16-onedark {
+@mixin base16-onedark-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #282c34;
 	--highlight-bp-color: #e06c75;	/* Name.Builtin.Pseudo */

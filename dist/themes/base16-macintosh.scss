@@ -1,4 +1,4 @@
-.base16-macintosh {
+@mixin base16-macintosh-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #000;
 	--highlight-bp-color: #dd0907;	/* Name.Builtin.Pseudo */

@@ -1,4 +1,4 @@
-.base16-tube {
+@mixin base16-tube-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #231f20;
 	--highlight-bp-color: #ee2e24;	/* Name.Builtin.Pseudo */

@@ -1,4 +1,4 @@
-.friendly_grayscale {
+@mixin friendly_grayscale-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #f0f0f0;
 	--highlight-bp-color: #575757;	/* Name.Builtin.Pseudo */

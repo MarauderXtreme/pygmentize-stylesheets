@@ -1,4 +1,4 @@
-.colorful {
+@mixin colorful-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #007020;	/* Name.Builtin.Pseudo */

@@ -1,4 +1,4 @@
-.base16-brewer {
+@mixin base16-brewer-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #0c0d0e;
 	--highlight-bp-color: #e31a1c;	/* Name.Builtin.Pseudo */

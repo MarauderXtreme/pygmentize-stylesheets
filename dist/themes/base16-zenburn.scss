@@ -1,4 +1,4 @@
-.base16-zenburn {
+@mixin base16-zenburn-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #3f3f3f;
 	--highlight-bp-color: #dca3a3;	/* Name.Builtin.Pseudo */

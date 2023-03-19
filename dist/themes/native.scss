@@ -1,4 +1,4 @@
-.native {
+@mixin native-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #202020;
 	--highlight-bp-color: #2fbccd;	/* Name.Builtin.Pseudo */

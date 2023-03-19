@@ -1,4 +1,4 @@
-.spacemacs-dark {
+@mixin spacemacs-dark-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #292b2e;
 	--highlight-bp-color: #b2b2b2;	/* Name.Builtin.Pseudo */

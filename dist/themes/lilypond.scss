@@ -1,4 +1,4 @@
-.lilypond {
+@mixin lilypond-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #ff0;	/* Name.Builtin.Pseudo */

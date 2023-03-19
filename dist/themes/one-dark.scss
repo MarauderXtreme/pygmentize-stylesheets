@@ -1,4 +1,4 @@
-.one-dark {
+@mixin one-dark-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #282C34;
 	--highlight-bp-color: #E5C07B;	/* Name.Builtin.Pseudo */

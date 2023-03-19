@@ -1,4 +1,4 @@
-.base16-greenscreen {
+@mixin base16-greenscreen-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #010;
 	--highlight-bp-color: #070;	/* Name.Builtin.Pseudo */

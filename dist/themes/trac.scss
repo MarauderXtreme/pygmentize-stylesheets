@@ -1,4 +1,4 @@
-.trac {
+@mixin trac-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #999;	/* Name.Builtin.Pseudo */

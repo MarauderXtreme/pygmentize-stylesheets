@@ -1,4 +1,4 @@
-.gruvbox-light {
+@mixin gruvbox-light-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fbf1c7;
 	--highlight-bp-color: #af3a03;	/* Name.Builtin.Pseudo */

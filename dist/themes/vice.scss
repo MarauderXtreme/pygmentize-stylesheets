@@ -1,4 +1,4 @@
-.vice {
+@mixin vice-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #000;
 	--highlight-bp-color: #00ffaf;	/* Name.Builtin.Pseudo */

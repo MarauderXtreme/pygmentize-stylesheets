@@ -1,4 +1,4 @@
-.stata-dark {
+@mixin stata-dark-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #232629;
 	--highlight-bp-color: #ccc;	/* Name.Builtin.Pseudo */

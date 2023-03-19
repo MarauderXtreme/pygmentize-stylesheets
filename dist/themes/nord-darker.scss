@@ -1,4 +1,4 @@
-.nord-darker {
+@mixin nord-darker-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #242933;
 	--highlight-bp-color: #81a1c1;	/* Name.Builtin.Pseudo */

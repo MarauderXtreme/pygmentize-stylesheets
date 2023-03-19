@@ -124,7 +124,7 @@ def generate_var_css(css_files, structured_properties):
                     var_list.append("\t--" + selector.replace('.highlight', 'highlight').replace(' ', '').replace('.', '-').lower() + '-' + property + ": " + value + ";")
         theme_name = file.split('/')[-1].replace('.css', '')
         with open('dist/themes/' + theme_name + '.scss', 'w') as var_css:
-            print(f".{theme_name} {{", file=var_css)
+            print(f"@mixin {theme_name}-pygment {{", file=var_css)
             for line in sorted(var_list):
                 print(f"{line}", file=var_css)
             print(f"}}", file=var_css)

@@ -1,4 +1,4 @@
-.base16-nord {
+@mixin base16-nord-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #2E3440;
 	--highlight-bp-color: #88C0D0;	/* Name.Builtin.Pseudo */

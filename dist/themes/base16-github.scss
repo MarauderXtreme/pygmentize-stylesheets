@@ -1,4 +1,4 @@
-.base16-github {
+@mixin base16-github-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #ed6a43;	/* Name.Builtin.Pseudo */

@@ -1,4 +1,4 @@
-.base16-classic-dark {
+@mixin base16-classic-dark-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #151515;
 	--highlight-bp-color: #AC4142;	/* Name.Builtin.Pseudo */

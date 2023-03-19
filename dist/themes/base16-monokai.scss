@@ -1,4 +1,4 @@
-.base16-monokai {
+@mixin base16-monokai-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #272822;
 	--highlight-bp-color: #f92672;	/* Name.Builtin.Pseudo */

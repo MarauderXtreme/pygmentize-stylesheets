@@ -1,4 +1,4 @@
-.base16-pop {
+@mixin base16-pop-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #000;
 	--highlight-bp-color: #eb008a;	/* Name.Builtin.Pseudo */

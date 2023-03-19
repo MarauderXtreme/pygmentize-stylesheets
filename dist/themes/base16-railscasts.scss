@@ -1,4 +1,4 @@
-.base16-railscasts {
+@mixin base16-railscasts-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #2b2b2b;
 	--highlight-bp-color: #da4939;	/* Name.Builtin.Pseudo */

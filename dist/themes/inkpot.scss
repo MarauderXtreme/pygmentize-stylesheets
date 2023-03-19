@@ -1,4 +1,4 @@
-.inkpot {
+@mixin inkpot-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #1e1e27;
 	--highlight-bp-color: #ff0;	/* Name.Builtin.Pseudo */

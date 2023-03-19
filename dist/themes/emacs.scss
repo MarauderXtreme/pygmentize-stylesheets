@@ -1,4 +1,4 @@
-.emacs {
+@mixin emacs-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #f8f8f8;
 	--highlight-bp-color: #A2F;	/* Name.Builtin.Pseudo */

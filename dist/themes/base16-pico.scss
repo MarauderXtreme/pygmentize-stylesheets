@@ -1,4 +1,4 @@
-.base16-pico {
+@mixin base16-pico-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #000;
 	--highlight-bp-color: #ff004d;	/* Name.Builtin.Pseudo */

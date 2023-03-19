@@ -1,4 +1,4 @@
-.paraiso-dark {
+@mixin paraiso-dark-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #2f1e2e;
 	--highlight-bp-color: #e7e9db;	/* Name.Builtin.Pseudo */

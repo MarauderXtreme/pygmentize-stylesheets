@@ -1,4 +1,4 @@
-.lovelace {
+@mixin lovelace-pygment {
 	--highlight--chordmodifier-color: #976806;	/* ChordModifier */
 	--highlight-background: #fff;
 	--highlight-bp-color: #388038;	/* Name.Builtin.Pseudo */

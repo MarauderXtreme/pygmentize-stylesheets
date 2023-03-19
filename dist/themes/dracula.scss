@@ -1,4 +1,4 @@
-.dracula {
+@mixin dracula-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #282a36;
 	--highlight-bp-color: #f8f8f2;	/* Name.Builtin.Pseudo */

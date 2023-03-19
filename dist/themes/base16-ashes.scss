@@ -1,4 +1,4 @@
-.base16-ashes {
+@mixin base16-ashes-pygment {
 	--highlight--chordmodifier-color: initial;	/* ChordModifier */
 	--highlight-background: #1C2023;
 	--highlight-bp-color: #C7AE95;	/* Name.Builtin.Pseudo */
