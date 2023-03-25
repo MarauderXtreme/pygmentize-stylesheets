@@ -32,9 +32,8 @@ See for all theme names [css][css] or [themes][themes].
 
 ## Preview the themes
 
-Coming soon™
-
-A Github Page will be created that directly feeds from the generated files.
+Find information on how to use the various generated files and preview the themes here:
+<https://marauderxtreme.github.io/pygmentize-stylesheets/>
 
 ## Include further thirdparty stylesheets
 
