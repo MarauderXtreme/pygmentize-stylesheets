@@ -6,6 +6,11 @@ nav-index: 0
 
 Welcome to an updated pygments stylesheet archive with added value for use with the rogue highlighter and henceforth Jekyll.
 
+## Timeliness
+
+The complete website was last updated on `{{ "now" | date: "%Y-%m-%d %H:%M" }}`.
+This info should help to identify changes to the themes when in automatic mode.
+
 ## How To Use
 
 With the option for CSS and SCSS-mixins there are many ways to include the pygments stylesheets
