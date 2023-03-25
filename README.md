@@ -43,9 +43,9 @@ There are currently not compatible thirdparty packages that have been excluded.
 
 ## Automatic archive updates
 
-It is the intention that the archive of CSS and CSS variables files will be updated either on a schedule or after package updates.
-If there is a useful way maybe even a npm package could be created.
-TBD
+Currently there is a workflow set up that will run each sunday to check if the `Pipfile.lock` got updated.
+If there are changes those get commited and pushed.
+This triggers another workflow that regenerates all theme and related files.
 
 ## Future
 
