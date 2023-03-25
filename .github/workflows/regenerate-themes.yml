@@ -1,0 +1,47 @@
+---
+
+name: Regenerate theme files
+
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - Pipfile.lock
+
+jobs:
+  theme-regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Python and cache pipenv
+        uses: actions/setup-python@v4
+        with:
+            cache: "pipenv"
+      - name: Install pipenv
+        run: python -m pip install --upgrade pipenv
+      - name: Setup pipenv for project
+        run: pipenv sync
+      - name: Generate CSS files
+        run: pipenv run ./src/generate-css.sh
+      - name: Configure git for github-actions as author
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      - name: Commit changes in theme css
+        run: |
+          git add css/themes
+          git diff-index --cached --quiet HEAD || git commit -m "Update theme css via gh-actions"
+      - name: Generate SCSS files
+        run: pipenv run ./src/generate.py
+      - name: Commit changes in theme scss mixins
+        run: |
+          git add dist/themes
+          git diff-index --cached --quiet HEAD || git commit -m "Update theme scss mixins via gh-actions"
+      - name: Commit changes in scss highlight and helper files
+        run: |
+          git add dist/*.scss
+          git diff-index --cached --quiet HEAD || git commit -m "Update scss highlight & helper via gh-actions"
+      - name: Push all changes made via gh-actions
+        run: git push
