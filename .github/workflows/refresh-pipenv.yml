@@ -25,5 +25,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add Pipfile.lock
-          git commit -m "Update Pipfile.lock via gh-actions"
+          git diff-index --cached --quiet HEAD || git commit -m "Update Pipfile.lock via gh-actions"
           git push
