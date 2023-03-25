@@ -2,4 +2,4 @@
 
 from pygments.styles import get_all_styles
 
-print(*get_all_styles(), sep = "\n")
+print(*get_all_styles(), sep="\n")

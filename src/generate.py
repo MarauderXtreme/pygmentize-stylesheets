@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-from itertools import tee, islice, chain
-import re
-import cssutils
 import os
+import re
+from itertools import chain, islice, tee
+
+import cssutils
 
 
 def available_next(itrbl):
@@ -30,23 +31,23 @@ def get_css_files(directory, suffix=".css"):
 def get_theme_list(files, suffix=".css"):
     themes = list()
     for theme in files:
-        themes.append(theme.split("/")[-1].replace(suffix, ''))
+        themes.append(theme.split("/")[-1].replace(suffix, ""))
     return sorted(themes)
 
 
 def generate_include_all_mixins(themes):
-    with open('dist/all-themes.scss', 'w') as all_mixins:
-        print(f'@charset "utf-8";\n', file=all_mixins)
+    with open("dist/all-themes.scss", "w") as all_mixins:
+        print('@charset "utf-8";\n', file=all_mixins)
         for theme in themes:
             print(f"@import 'themes/{theme}';", file=all_mixins)
 
 
 def generate_classes_for_all_themes(themes):
-    with open('dist/all-themes-classes.scss', 'w') as all_classes:
+    with open("dist/all-themes-classes.scss", "w") as all_classes:
         for theme in themes:
             print(f".{theme} {{", file=all_classes)
             print(f"\t@include {theme}-pygment;", file=all_classes)
-            print(f"}}\n", file=all_classes)
+            print("}}\n", file=all_classes)
     return sorted(themes)
 
 
@@ -68,9 +69,14 @@ def generate_basic_structure(files):
                 if "comment" not in structure[i.selectorText]:
                     structure[i.selectorText]["comment"] = n.cssText
                 elif structure[i.selectorText]["comment"] != n.cssText:
-                    print("In " + file +
-                          " the comment is " + n.cssText +
-                          " instead of " + structure[i.selectorText]["comment"])
+                    print(
+                        "In "
+                        + file
+                        + " the comment is "
+                        + n.cssText
+                        + " instead of "
+                        + structure[i.selectorText]["comment"]
+                    )
     return structure
 
 
@@ -81,12 +87,23 @@ def generate_highlight_scss(structure):
             for property, value in properties.items():
                 if property == "comment":
                     continue
-                var_css_string = var_css_string + property + ": var(--" + selector.replace(
-                    ".highlight", "highlight").replace(" ", "").replace(
-                    ".", "-").lower() + "-" + property.replace(":", "") + "); "
+                var_css_string = (
+                    var_css_string
+                    + property
+                    + ": var(--"
+                    + selector.replace(".highlight", "highlight")
+                    .replace(" ", "")
+                    .replace(".", "-")
+                    .lower()
+                    + "-"
+                    + property.replace(":", "")
+                    + "); "
+                )
             if "comment" in properties:
                 print(
-                    f"{selector} {{ {var_css_string}}} {properties['comment']}", file=highlight)
+                    f"{selector} {{ {var_css_string}}} {properties['comment']}",
+                    file=highlight,
+                )
             else:
                 print(f"{selector} {{ {var_css_string}}}", file=highlight)
 
@@ -99,10 +116,10 @@ def generate_var_css(css_files, structure, suffix=".css"):
         for rule in sheet.cssRules:
             if rule.type == 1:
                 selector = rule.selectorText
-                css_text = re.findall('[^; \n]+: [^; ]+', rule.style.cssText)
+                css_text = re.findall("[^; \n]+: [^; ]+", rule.style.cssText)
                 for property in css_text:
-                    setting = property.split(':')[0]
-                    variable = property.split(':')[1].replace(' ', '')
+                    setting = property.split(":")[0]
+                    variable = property.split(":")[1].replace(" ", "")
                     generator_handle[selector][setting] = variable
         var_list = list()
         for selector, properties in generator_handle.items():
@@ -110,17 +127,38 @@ def generate_var_css(css_files, structure, suffix=".css"):
                 if property == "comment":
                     continue
                 if "comment" in generator_handle[selector]:
-                    var_list.append("--" + selector.replace('.highlight', 'highlight').replace(' ', '').replace(
-                        '.', '-').lower() + '-' + property + ": " + value + ";\t" + generator_handle[selector]["comment"])
+                    var_list.append(
+                        "--"
+                        + selector.replace(".highlight", "highlight")
+                        .replace(" ", "")
+                        .replace(".", "-")
+                        .lower()
+                        + "-"
+                        + property
+                        + ": "
+                        + value
+                        + ";\t"
+                        + generator_handle[selector]["comment"]
+                    )
                 else:
-                    var_list.append("--" + selector.replace('.highlight', 'highlight').replace(
-                        ' ', '').replace('.', '-').lower() + '-' + property + ": " + value + ";")
-        theme_name = file.split('/')[-1].replace(suffix, '')
-        with open('dist/themes/' + theme_name + '.scss', 'w') as var_scss:
+                    var_list.append(
+                        "--"
+                        + selector.replace(".highlight", "highlight")
+                        .replace(" ", "")
+                        .replace(".", "-")
+                        .lower()
+                        + "-"
+                        + property
+                        + ": "
+                        + value
+                        + ";"
+                    )
+        theme_name = file.split("/")[-1].replace(suffix, "")
+        with open("dist/themes/" + theme_name + ".scss", "w") as var_scss:
             print(f"@mixin {theme_name}-pygment {{", file=var_scss)
             for line in sorted(var_list):
                 print(f"\t{line}", file=var_scss)
-            print(f"}}", file=var_scss)
+            print("}}", file=var_scss)
 
 
 css_files = get_css_files("css/themes")
