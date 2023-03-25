@@ -43,6 +43,10 @@ Just subsitute `THEMENAME` with the desired theme.
 
 ### SCSS
 
+
+
+### SCSS with `@mixin`
+
 If a bit more flexibility but still only one theme is needed download the `highlight.scss` into the assets and import it in the SCSS.
 Afterwards download the desired theme scss into the assets and include it as well.
 Use the provided theme `@mixin` on a top-level object or where needed.

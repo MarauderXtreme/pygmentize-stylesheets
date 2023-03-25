@@ -38,84 +38,84 @@
 	@include base16-ashes-pygment;
 }
 
-.base16-atelier-cave-light {
-	@include base16-atelier-cave-light-pygment;
-}
-
 .base16-atelier-cave {
 	@include base16-atelier-cave-pygment;
 }
 
-.base16-atelier-dune-light {
-	@include base16-atelier-dune-light-pygment;
+.base16-atelier-cave-light {
+	@include base16-atelier-cave-light-pygment;
 }
 
 .base16-atelier-dune {
 	@include base16-atelier-dune-pygment;
 }
 
-.base16-atelier-estuary-light {
-	@include base16-atelier-estuary-light-pygment;
+.base16-atelier-dune-light {
+	@include base16-atelier-dune-light-pygment;
 }
 
 .base16-atelier-estuary {
 	@include base16-atelier-estuary-pygment;
 }
 
-.base16-atelier-forest-light {
-	@include base16-atelier-forest-light-pygment;
+.base16-atelier-estuary-light {
+	@include base16-atelier-estuary-light-pygment;
 }
 
 .base16-atelier-forest {
 	@include base16-atelier-forest-pygment;
 }
 
-.base16-atelier-heath-light {
-	@include base16-atelier-heath-light-pygment;
+.base16-atelier-forest-light {
+	@include base16-atelier-forest-light-pygment;
 }
 
 .base16-atelier-heath {
 	@include base16-atelier-heath-pygment;
 }
 
-.base16-atelier-lakeside-light {
-	@include base16-atelier-lakeside-light-pygment;
+.base16-atelier-heath-light {
+	@include base16-atelier-heath-light-pygment;
 }
 
 .base16-atelier-lakeside {
 	@include base16-atelier-lakeside-pygment;
 }
 
-.base16-atelier-plateau-light {
-	@include base16-atelier-plateau-light-pygment;
+.base16-atelier-lakeside-light {
+	@include base16-atelier-lakeside-light-pygment;
 }
 
 .base16-atelier-plateau {
 	@include base16-atelier-plateau-pygment;
 }
 
-.base16-atelier-savanna-light {
-	@include base16-atelier-savanna-light-pygment;
+.base16-atelier-plateau-light {
+	@include base16-atelier-plateau-light-pygment;
 }
 
 .base16-atelier-savanna {
 	@include base16-atelier-savanna-pygment;
 }
 
-.base16-atelier-seaside-light {
-	@include base16-atelier-seaside-light-pygment;
+.base16-atelier-savanna-light {
+	@include base16-atelier-savanna-light-pygment;
 }
 
 .base16-atelier-seaside {
 	@include base16-atelier-seaside-pygment;
 }
 
-.base16-atelier-sulphurpool-light {
-	@include base16-atelier-sulphurpool-light-pygment;
+.base16-atelier-seaside-light {
+	@include base16-atelier-seaside-light-pygment;
 }
 
 .base16-atelier-sulphurpool {
 	@include base16-atelier-sulphurpool-pygment;
+}
+
+.base16-atelier-sulphurpool-light {
+	@include base16-atelier-sulphurpool-light-pygment;
 }
 
 .base16-bespin {
@@ -130,12 +130,12 @@
 	@include base16-bright-pygment;
 }
 
-.base16-brushtrees-dark {
-	@include base16-brushtrees-dark-pygment;
-}
-
 .base16-brushtrees {
 	@include base16-brushtrees-pygment;
+}
+
+.base16-brushtrees-dark {
+	@include base16-brushtrees-dark-pygment;
 }
 
 .base16-chalk {
@@ -282,6 +282,10 @@
 	@include base16-materia-pygment;
 }
 
+.base16-material {
+	@include base16-material-pygment;
+}
+
 .base16-material-darker {
 	@include base16-material-darker-pygment;
 }
@@ -292,10 +296,6 @@
 
 .base16-material-palenight {
 	@include base16-material-palenight-pygment;
-}
-
-.base16-material {
-	@include base16-material-pygment;
 }
 
 .base16-mellow-purple {
@@ -398,12 +398,12 @@
 	@include base16-summerfruit-light-pygment;
 }
 
-.base16-tomorrow-night {
-	@include base16-tomorrow-night-pygment;
-}
-
 .base16-tomorrow {
 	@include base16-tomorrow-pygment;
+}
+
+.base16-tomorrow-night {
+	@include base16-tomorrow-night-pygment;
 }
 
 .base16-tube {
@@ -542,12 +542,12 @@
 	@include native-pygment;
 }
 
-.nord-darker {
-	@include nord-darker-pygment;
-}
-
 .nord {
 	@include nord-pygment;
+}
+
+.nord-darker {
+	@include nord-darker-pygment;
 }
 
 .one-dark {
@@ -630,6 +630,10 @@
 	@include staroffice-pygment;
 }
 
+.stata {
+	@include stata-pygment;
+}
+
 .stata-dark {
 	@include stata-dark-pygment;
 }
@@ -638,16 +642,16 @@
 	@include stata-light-pygment;
 }
 
-.stata {
-	@include stata-pygment;
-}
-
 .tango {
 	@include tango-pygment;
 }
 
 .tomorrow-day {
 	@include tomorrow-day-pygment;
+}
+
+.tomorrow-night {
+	@include tomorrow-night-pygment;
 }
 
 .tomorrow-night-blue {
@@ -660,10 +664,6 @@
 
 .tomorrow-night-eighties {
 	@include tomorrow-night-eighties-pygment;
-}
-
-.tomorrow-night {
-	@include tomorrow-night-pygment;
 }
 
 .tomorrownightbright {
