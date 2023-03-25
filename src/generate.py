@@ -54,7 +54,6 @@ def generate_basic_structure(files):
     structure = dict()
     parser = cssutils.parse.CSSParser()
     for file in files:
-        print("Parsing " + file)
         sheet = parser.parseFile(file, validate=True)
         for i, n in available_next(sheet.cssRules):
             if i.type == 1:
@@ -126,10 +125,10 @@ def generate_var_css(css_files, structure, suffix=".css"):
 
 css_files = get_css_files("css/themes")
 
-# themes = get_theme_list(css_files)
-# generate_include_all_mixins(themes)
-# generate_classes_for_all_themes(themes)
+themes = get_theme_list(css_files)
+generate_include_all_mixins(themes)
+generate_classes_for_all_themes(themes)
 
 structure = generate_basic_structure(css_files)
-# generate_highlight_scss(structure)
-# generate_var_css(css_files, structure)
+generate_highlight_scss(structure)
+generate_var_css(css_files, structure)
