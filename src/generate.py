@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import copy
 import os
 import re
 from itertools import chain, islice, tee
@@ -112,7 +113,7 @@ def generate_var_css(css_files, structure, suffix=".css"):
     for file in css_files:
         parser = cssutils.parse.CSSParser()
         sheet = parser.parseFile(file, validate=True)
-        generator_handle = structure
+        generator_handle = copy.deepcopy(structure)
         for rule in sheet.cssRules:
             if rule.type == 1:
                 selector = rule.selectorText
