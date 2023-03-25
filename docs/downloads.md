@@ -24,5 +24,4 @@ You can find all download links here.
 
 [all-themes]: {{ site.baseurl }}/dist/all-themes.scss
 
-
 {% include themes.html download=true %}
