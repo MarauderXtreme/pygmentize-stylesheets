@@ -41,6 +41,16 @@ Just subsitute `THEMENAME` with the desired theme.
 </head>
 ```
 
+### SCSS
+
+The css theme can also be included within SCSS.
+Look for the desired theme and download it into the assets and import it into the appropriate SCSS file.
+
+```scss
+@charset "utf-8";
+@import 'THEMENAME';
+```
+
 ### SCSS with `@mixin`
 
 If a bit more flexibility but still only one theme is needed download the `highlight.scss` into the assets and import it in the SCSS.
