@@ -97,4 +97,9 @@ Use the provided `@mixin` on a top-level but wrap it with the media query `prefe
 Give it a try on this site.
 If javascript is enabled a theme switcher can be found in the top right corner.
 
-{% include themes.html %}
+## List of all themes
+
+Here you can find a list of all themes and links to the theme previews.
+
+{% capture theme-list %}{% include themes.html %}{% endcapture %}
+{{ theme-list | replace: '<h2', '<h3' | replace: '</h2>', '</h3>' }}
