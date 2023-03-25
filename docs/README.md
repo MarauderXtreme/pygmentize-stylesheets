@@ -37,13 +37,9 @@ Just subsitute `THEMENAME` with the desired theme.
 ```html
 <head>
   <title>My awesome site</title>
-  <link href="{{ site.url }}{{ site.baseurl }}/css/themes/THEMENAME.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.url }}{{ site.baseurl }}/docs/css/themes/THEMENAME.css" rel="stylesheet" type="text/css">
 </head>
 ```
-
-### SCSS
-
-
 
 ### SCSS with `@mixin`
 
