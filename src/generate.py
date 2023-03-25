@@ -48,7 +48,7 @@ def generate_classes_for_all_themes(themes):
         for theme in themes:
             print(f".{theme} {{", file=all_classes)
             print(f"\t@include {theme}-pygment;", file=all_classes)
-            print("}}\n", file=all_classes)
+            print("}\n", file=all_classes)
     return sorted(themes)
 
 
@@ -159,7 +159,7 @@ def generate_var_css(css_files, structure, suffix=".css"):
             print(f"@mixin {theme_name}-pygment {{", file=var_scss)
             for line in sorted(var_list):
                 print(f"\t{line}", file=var_scss)
-            print("}}", file=var_scss)
+            print("}", file=var_scss)
 
 
 css_files = get_css_files("css/themes")
