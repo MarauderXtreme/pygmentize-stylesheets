@@ -27,8 +27,8 @@ See for all theme names [css][css] or [themes][themes].
 
 [get_styles]: src/get_styles.py
 [pipfile]: Pipfile#L9
-[css]: css/
-[themes]: dist/themes/
+[css]: docs/css/themes
+[themes]: docs/dist/themes/
 
 ## Preview the themes
 
