@@ -78,7 +78,7 @@ def get_all_properties(class_list, css_files):
     return sorted(class_list)
 
 def generate_highlight_css(properties):
-    with open('dist/highlight.scss', 'w') as var_css:
+    with open('docs/dist/highlight.scss', 'w') as var_css:
         for extracted_rule in properties:
             var_string = ''
             for property in extracted_rule[1]:
@@ -102,14 +102,14 @@ def structure_properties(properties):
     return structure
 
 def generate_all_include(css_files):
-    with open('dist/all-themes.scss', 'w') as all_file:
+    with open('docs/dist/all-themes.scss', 'w') as all_file:
         print(f'@charset "utf-8";\n', file=all_file)
         for file in css_files:
             theme_name = file.split('/')[-1].replace('.css', '')
             print(f"@import 'themes/{theme_name}';",file=all_file)
 
 def generate_classes_for_themes(css_files):
-    with open('dist/all-themes-classes.scss', 'w') as all_file:
+    with open('docs/all-themes-classes.scss', 'w') as all_file:
         for file in css_files:
             theme_name = file.split('/')[-1].replace('.css', '')
             print(f".{theme_name} {{",file=all_file)
@@ -138,7 +138,7 @@ def generate_var_css(css_files, structured_properties):
                 else:
                     var_list.append("\t--" + selector.replace('.highlight', 'highlight').replace(' ', '').replace('.', '-').lower() + '-' + property + ": " + value + ";")
         theme_name = file.split('/')[-1].replace('.css', '')
-        with open('dist/themes/' + theme_name + '.scss', 'w') as var_css:
+        with open('docs/dist/themes/' + theme_name + '.scss', 'w') as var_css:
             print(f"@mixin {theme_name}-pygment {{", file=var_css)
             for line in sorted(var_list):
                 print(f"{line}", file=var_css)
