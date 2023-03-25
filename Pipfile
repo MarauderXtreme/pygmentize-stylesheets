@@ -24,3 +24,6 @@ pygments-style-tomorrow = "*"
 pygments-style-tomorrownightbright = "*"
 pygments-vice = "*"
 pygments-vsc-style = "*"
+
+[dev-packages]
+autopep8 = "*"
