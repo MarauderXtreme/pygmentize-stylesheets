@@ -1,0 +1,14 @@
+---
+
+default: true
+header-style:
+  style: atx
+no-trailing-spaces:
+  br_spaces: 2
+line-length: false
+hr-style:
+  style: "---"
+code-block-style:
+  style: fenced
+code-fence-style:
+  style: backtick
