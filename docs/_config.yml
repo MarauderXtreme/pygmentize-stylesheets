@@ -17,10 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-title: Pygments Stylesheets
-baseurl: "/pygmentize-stylesheets"
-url: "https://marauderxtreme.github.io"
+repository: marauderxtreme/pygmentize-stylesheets
 
 # Build settings
 # theme: minima
@@ -30,6 +27,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-optional-front-matter
   - jekyll-readme-index
+  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default.
