@@ -76,7 +76,7 @@
 	--highlight-gu-font-weight: initial;	/* Generic.Subheading */
 	--highlight-gu-text-decoration: initial;	/* Generic.Subheading */
 	--highlight-hll-background-color: #ffc;
-	--highlight-il-color: #3af;	/* Literal.Number.Integer.Long */
+	--highlight-il-color: initial;	/* Literal.Number.Integer.Long */
 	--highlight-il-font-style: initial;	/* Literal.Number.Integer.Long */
 	--highlight-il-font-weight: initial;	/* Literal.Number.Integer.Long */
 	--highlight-k-color: #00f;	/* Keyword */
@@ -107,27 +107,27 @@
 	--highlight-kt-text-decoration: initial;	/* Keyword.Type */
 	--highlight-l-color: initial;	/* Literal */
 	--highlight-ld-color: initial;	/* Literal.Date */
-	--highlight-m-color: #3af;	/* Literal.Number */
+	--highlight-m-color: initial;	/* Literal.Number */
 	--highlight-m-font-style: initial;	/* Literal.Number */
 	--highlight-m-font-weight: initial;	/* Literal.Number */
-	--highlight-mb-color: #3af;	/* Literal.Number.Bin */
+	--highlight-mb-color: initial;	/* Literal.Number.Bin */
 	--highlight-mb-font-style: initial;	/* Literal.Number.Bin */
 	--highlight-mb-font-weight: initial;	/* Literal.Number.Bin */
-	--highlight-mf-color: #3af;	/* Literal.Number.Float */
+	--highlight-mf-color: initial;	/* Literal.Number.Float */
 	--highlight-mf-font-style: initial;	/* Literal.Number.Float */
 	--highlight-mf-font-weight: initial;	/* Literal.Number.Float */
-	--highlight-mh-color: #3af;	/* Literal.Number.Hex */
+	--highlight-mh-color: initial;	/* Literal.Number.Hex */
 	--highlight-mh-font-style: initial;	/* Literal.Number.Hex */
 	--highlight-mh-font-weight: initial;	/* Literal.Number.Hex */
-	--highlight-mi-color: #3af;	/* Literal.Number.Integer */
+	--highlight-mi-color: initial;	/* Literal.Number.Integer */
 	--highlight-mi-font-style: initial;	/* Literal.Number.Integer */
 	--highlight-mi-font-weight: initial;	/* Literal.Number.Integer */
-	--highlight-mo-color: #3af;	/* Literal.Number.Oct */
+	--highlight-mo-color: initial;	/* Literal.Number.Oct */
 	--highlight-mo-font-style: initial;	/* Literal.Number.Oct */
 	--highlight-mo-font-weight: initial;	/* Literal.Number.Oct */
 	--highlight-n-backslashreference-color: initial;	/* Name.BackslashReference */
 	--highlight-n-builtins-color: initial;	/* Name.Builtins */
-	--highlight-n-color: #000;	/* Name */
+	--highlight-n-color: initial;	/* Name */
 	--highlight-n-databasetable-color: #800080;	/* Name.DatabaseTable */
 	--highlight-n-elementparameter-color: #008b8b;	/* Name.ElementParameter */
 	--highlight-n-lvalue-color: initial;	/* Name.Lvalue */
@@ -167,35 +167,35 @@
 	--highlight-nb-schemefunction-font-weight: initial;	/* Name.Builtin.SchemeFunction */
 	--highlight-nb-translator-color: initial;	/* Name.Builtin.Translator */
 	--highlight-nb-translator-font-weight: initial;	/* Name.Builtin.Translator */
-	--highlight-nc-color: #000;	/* Name.Class */
+	--highlight-nc-color: initial;	/* Name.Class */
 	--highlight-nc-font-style: initial;	/* Name.Class */
 	--highlight-nc-font-weight: initial;	/* Name.Class */
 	--highlight-nc-text-decoration: initial;	/* Name.Class */
-	--highlight-nd-color: #000;	/* Name.Decorator */
+	--highlight-nd-color: initial;	/* Name.Decorator */
 	--highlight-nd-font-weight: initial;	/* Name.Decorator */
-	--highlight-ne-color: #000;	/* Name.Exception */
+	--highlight-ne-color: initial;	/* Name.Exception */
 	--highlight-ne-font-weight: initial;	/* Name.Exception */
 	--highlight-nf-color: #2c2cff;	/* Name.Function */
 	--highlight-nf-font-style: initial;	/* Name.Function */
 	--highlight-nf-font-weight: initial;	/* Name.Function */
-	--highlight-ni-color: #000;	/* Name.Entity */
+	--highlight-ni-color: initial;	/* Name.Entity */
 	--highlight-ni-font-weight: initial;	/* Name.Entity */
-	--highlight-nl-color: #000;	/* Name.Label */
+	--highlight-nl-color: initial;	/* Name.Label */
 	--highlight-nl-font-style: initial;	/* Name.Label */
 	--highlight-nl-font-weight: initial;	/* Name.Label */
-	--highlight-nn-color: #000;	/* Name.Namespace */
+	--highlight-nn-color: initial;	/* Name.Namespace */
 	--highlight-nn-font-style: initial;	/* Name.Namespace */
 	--highlight-nn-font-weight: initial;	/* Name.Namespace */
 	--highlight-nn-text-decoration: initial;	/* Name.Namespace */
-	--highlight-no-color: #000;	/* Name.Constant */
+	--highlight-no-color: initial;	/* Name.Constant */
 	--highlight-no-font-style: initial;	/* Name.Constant */
 	--highlight-no-font-weight: initial;	/* Name.Constant */
-	--highlight-nt-color: #000;	/* Name.Tag */
+	--highlight-nt-color: initial;	/* Name.Tag */
 	--highlight-nt-font-weight: initial;	/* Name.Tag */
 	--highlight-nv-color: #db7093;	/* Name.Variable */
 	--highlight-nv-font-style: initial;	/* Name.Variable */
 	--highlight-nv-font-weight: initial;	/* Name.Variable */
-	--highlight-nx-color: #000;	/* Name.Other */
+	--highlight-nx-color: initial;	/* Name.Other */
 	--highlight-o-color: #000;	/* Operator */
 	--highlight-o-font-weight: bold;	/* Operator */
 	--highlight-ow-color: #000;	/* Operator.Word */
@@ -205,7 +205,7 @@
 	--highlight-p-font-weight: initial;	/* Punctuation */
 	--highlight-pm-color: initial;	/* Punctuation.Marker */
 	--highlight-pm-font-weight: initial;	/* Punctuation.Marker */
-	--highlight-py-color: #000;	/* Name.Property */
+	--highlight-py-color: initial;	/* Name.Property */
 	--highlight-py-font-weight: initial;	/* Name.Property */
 	--highlight-s-background-color: initial;	/* Literal.String */
 	--highlight-s-color: #808080;	/* Literal.String */
@@ -282,4 +282,4 @@
 	--td-linenos-special-color: #000;
 	--td-linenos-special-padding-left: 5px;
 	--td-linenos-special-padding-right: 5px;
-}
+}}
