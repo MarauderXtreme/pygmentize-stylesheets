@@ -10,6 +10,17 @@ Welcome to an updated pygments stylesheet archive with added value for use with 
 
 With the option for CSS and SCSS-mixins there are many ways to include the pygments stylesheets
 
+### Configure Jekyll to use rogue
+
+Configure `Jekyll` to use `rogue` as the code highlighter.
+This should come now by default and no extra options should be necesary but here is an example for the `_config.yml`.
+
+```yml
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+```
+
 ### CSS
 
 If just a theme is needed with no SCSS just look for the desired theme and download the corresponding CSS.
@@ -20,15 +31,6 @@ The file needs to be placed in the sites assets and be included in the `<head>`.
   <title>My awesome site</title>
   <link href="/assets/css/pygments-theme.css" rel="stylesheet" type="text/css">
 </head>
-```
-
-Configure `Jekyll` to use `rogue` as the code highlighter.
-This should come now by default and no extra options should be necesary but here is an example for the `_config.yml`.
-
-```yml
-markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
 ```
 
 There is also the possibility to include the files directly from this site but be careful since everything can change and break without notice.
