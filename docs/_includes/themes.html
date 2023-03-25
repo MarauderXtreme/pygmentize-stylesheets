@@ -6,12 +6,12 @@
 {% for theme in themes %}
 <h2 id="{{ theme.basename }}">{{ theme.basename }}</h2>
 <div class="theme">
-{% if include.download == false %}
-{% if include.preview == false %}
+{% unless include.download %}
+{% unless include.preview %}
 <a href="{{ site.baseurl }}/preview#{{ theme.basename }}">Preview</a> | 
-{% endif %}
-<a href="{{ theme.path | prepend: site.baseurl }}">Preview CSS</a> | 
-{% endif %}
+{% endunless %}
+<a href="{{ theme.path | prepend: site.baseurl }}">Raw CSS Preview</a> | 
+{% endunless %}
 <a href="{{ theme.path | prepend: site.baseurl }}" download>Download CSS</a> | 
 <a href="{{ site.baseurl }}/dist/themes/{{ theme.basename | append: '.scss' }}" download>Download SCSS-Mixin</a>
 {% if include.preview %}
