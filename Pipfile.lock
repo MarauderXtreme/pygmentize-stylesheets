@@ -23,11 +23,11 @@
         },
         "cssutils": {
             "hashes": [
-                "sha256:30c72f3a5c5951a11151640600aae7b3bf10e4c0d5c87f5bc505c2cd4a26e0c2",
-                "sha256:f7dcd23c1cec909fdf3630de346e1413b7b2555936dec14ba2ebb9913bf0818e"
+                "sha256:7881646b4d16106bb66cb1ba3b399a1a9793ff68cbc0d89f9d38a853d6198912",
+                "sha256:b361836e4c39cf94f052351521e706016cc9d380026a9513a74000dbadcb3804"
             ],
             "index": "pypi",
-            "version": "==2.6.0"
+            "version": "==2.7.0"
         },
         "friendly-styles": {
             "hashes": [
