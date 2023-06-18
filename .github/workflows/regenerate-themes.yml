@@ -31,13 +31,13 @@ jobs:
           git config user.email github-actions@github.com
       - name: Commit changes in theme css
         run: |
-          git add css/themes
+          git add docs/css/themes
           git diff-index --cached --quiet HEAD || git commit -m "Update theme css via gh-actions"
       - name: Generate SCSS files
         run: pipenv run ./src/generate.py
       - name: Commit changes in theme scss mixins
         run: |
-          git add dist/themes
+          git add docs/dist/themes
           git diff-index --cached --quiet HEAD || git commit -m "Update theme scss mixins via gh-actions"
       - name: Commit changes in scss highlight and helper files
         run: |
